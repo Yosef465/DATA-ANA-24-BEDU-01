@@ -1,0 +1,1 @@
+##Escribe un programa que imprima la tabla de multiplicar de un usuario ingrese como dato de entrada
