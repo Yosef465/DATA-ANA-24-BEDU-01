@@ -3,4 +3,4 @@
 import requests
 
 response = requests.get('https://galileoguzman.com/')
-print(response.text)
+print(response.text) # imprime codigo
