@@ -1,14 +1,17 @@
 ## Ecribir diferentes formas de interpolar y formatear cadenas
-# ejemplo 1 Formato literal 
+## Crear variables
 nombre = 'Yosef'
-edad = 24
+edad = 22
+
+# ejemplo 1 Formato literal 
 print((f'Mi nombre es {nombre} y tengo {edad} años'))
 
 #ejemplo 1 usando operador % 
 print('Mi nombre es %s y tengo %d años' %(nombre,edad))
 
 #ejemplo 2 Metdod str.format()
-cadena3 = 'Mi nombre es {} y tengo {} años' .format(nombre,edad)
-print(cadena3)
+print('Mi nombre es {} y tengo {} años' .format(nombre,edad))
 
-#ejemplo 3 
+#ejemplo 3 Formato especifico 
+valor = 3.14159     #variable con 5 decimales
+print(f"El vlor de pi es aproximadamente {valor:.2f}")
